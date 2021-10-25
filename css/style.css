@@ -1,0 +1,49 @@
+body{
+  text-align: center;
+  background-image: url('../images/pattern-background-desktop.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: hsl(225, 100%, 94%);
+}
+
+.main {
+  width: 50%;
+  height: 500px;
+  border-radius: 3%;
+  padding-bottom: 100px;
+  margin: 4% auto;
+  background-color: white;
+}
+.image{
+  width:100%;
+  height: 44%;
+  margin:0;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 2px 5px #666666;
+  -moz-box-shadow: 0px 2px 5px #666666;
+  box-shadow: 0px 2px 5px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #623bff;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #5c64ff;
+  text-decoration: none;
+}
