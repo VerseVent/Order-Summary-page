@@ -1,5 +1,7 @@
-body{
+body {
   text-align: center;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
   background-image: url('../images/pattern-background-desktop.svg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -8,30 +10,85 @@ body{
 
 .main {
   width: 50%;
-  height: 600px;
+  height: 650px;
   max-width: 700px;
   min-width: 350px;
   min-height: 500px;
-  border-radius: 50px 50px 50px 50px;
+  border-radius: 20px 20px 20px 20px;
   /* padding-bottom: 100px; */
   margin: 4% auto;
   background-color: white;
-
 }
-.image{
-  width:100%;
-  height: 50%;
-  border-radius: 50px 50px 0px 0px;
-  position: relative;
+
+.image {
+  width: 100%;
+  height: 48%;
+  border-radius: 20px 20px 0px 0px;
+  /* position: relative; */
   background-image: url('../images/illustration-hero.svg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  margin:0;
+  margin: 0;
+}
+
+#description {
+  margin: 0 auto;
+  font-size: 16px;
+  font-weight: 300;
+  width: 70%
+}
+
+#summary {
+  font-weight: 900;
+  font-size: 22px;
+}
+
+.anual_plan {
+  margin: 0 auto;
+  padding-top: 2.2%;
+  padding-bottom: 0.8%;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px 10px 10px 10px;
+  height: 8%;
+  width: 90%;
+}
+
+.anual_plan img {
+  width: 40px;
+}
+
+#anual {
+  display: inline-block;
+  font-weight: 900;
+  width: 100%;
+  margin: 0 auto;
+  /* margin-bottom: 0; */
+}
+
+#price {
+  color: hsl(224, 23%, 55%);
+  font-size: 14px;
+  margin: 0 auto;
+  margin-top: 0;
+  width: 100%;
+  /* text-align: left; */
+  font-weight: 300;
+}
+
+#change {
+  /* float:right; */
+  float: left;
+  text-decoration: underline;
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+  width: 30%;
+  margin: 1.5% auto;
 }
 
 .attribution {
   font-size: 11px;
+  margin-bottom: 0;
   text-align: center;
 }
 
@@ -49,7 +106,8 @@ body{
   font-family: Arial;
   color: #ffffff;
   font-size: 15px;
-  background: #623bff;
+  font-weight: 700;
+  background: hsl(245, 75%, 52%);
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
@@ -58,8 +116,30 @@ body{
   background: #5c64ff;
   text-decoration: none;
 }
-.order{
+
+.order {
   margin: 0 5%;
-  padding-bottom: 100px;
+  /* padding-bottom: 10%; */
   /* text-align: center; */
+}
+.order a {
+  text-decoration: none;
+}
+#cancel_order {
+  font-weight: 600;
+  color:hsl(224, 23%, 55%);
+  padding-top: 2.5%;
+  /* padding-bottom: 5%; */
+}
+
+.payment {
+  float: left;
+  width: 40%;
+  margin: auto;
+}
+
+.music_image {
+  float: left;
+  width: 30%;
+  height: 100%;
 }
